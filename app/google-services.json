@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "497359528505",
+    "project_id": "workfinder-3bac6",
+    "storage_bucket": "workfinder-3bac6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497359528505:android:d2e7673d762aea8f4623e8",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497359528505-he3h6n651qpm78g0rl0edv2nnbf2d17t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "34eed24057c8a930225075b813de9f10b439e918"
+          }
+        },
+        {
+          "client_id": "497359528505-2tgbch3sgoto47eb420qajtnddblh7aq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbkxq9oV9AD6m-OY2bDc7MHybbwBTj-Mo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497359528505-2tgbch3sgoto47eb420qajtnddblh7aq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

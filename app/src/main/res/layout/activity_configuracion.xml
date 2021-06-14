@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/activity" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Configuracion">
+
+    <LinearLayout
+        style="@style/layouts"
+        android:id="@+id/linearLayout"
+        android:layout_width="410dp"
+        android:layout_height="143dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <Button
+            style="@style/buttons"
+            android:id="@+id/btnTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Número telefonico    "
+            android:textAlignment="viewStart" />
+
+        <Button
+            style="@style/buttons"
+
+            android:id="@+id/btnCuentas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuentas conectadas     "
+            android:textAlignment="viewStart" />
+
+        <Button
+            style="@style/buttons"
+
+            android:id="@+id/btnCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correo       "
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layouts"
+        android:layout_width="409dp"
+        android:layout_height="240dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.109">
+
+        <Button
+            style="@style/buttons"
+
+            android:id="@+id/btnLocalizacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Localización        "
+            android:textAlignment="viewStart" />
+
+        <TextView
+
+            android:id="@+id/txtSalida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Distancia máxima:"
+            android:textColor="@color/white" />
+
+        <SeekBar
+            android:id="@+id/sbDistancia"
+            android:layout_width="350dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="30dp"
+            android:max="15" />
+
+        <Button
+            style="@style/buttons"
+
+            android:id="@+id/btnMostrarme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mostrarme                 "
+            android:textAlignment="viewStart" />
+
+        <Switch
+            android:textAlignment="viewStart"
+            android:id="@+id/switch1"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text=" Mostrarme en WorkFinder"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/subtitle"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="Información de contacto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        style="@style/subtitle"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Descubre"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        style="@style/title"
+        android:textAlignment="center"
+        android:id="@+id/textView4"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Configuración de la cuenta"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

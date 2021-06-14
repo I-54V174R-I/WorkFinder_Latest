@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/activity" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Correo">
+
+    <LinearLayout
+        style="@style/layouts"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            style="@style/subtitle"
+            android:padding="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email" />
+
+        <EditText
+            android:background="#c5cae9"
+            android:id="@+id/editTextTextEmailAddress2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+
+        <Button
+            style="@style/buttons"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/btnEnviarEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar email de verificación" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_servicio"
+            android:icon="@drawable/ic_add"
+            android:title="@string/menu_solicitud" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_cliente"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+
+            android:icon="@drawable/ic_colaborador"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_historial"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_capital"
+            android:icon="@drawable/ic_money"
+            android:title="@string/recarga" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_config"
+            android:icon="@drawable/ic_config"
+            android:title="@string/configuracionN" />
+
+    </group>
+    <group
+        android:enabled="false"
+        android:menuCategory="secondary">
+
+        <item
+            android:title=" " />
+        <item
+            android:title=" " />
+        <item
+            android:title=" " />
+        <item
+            android:icon="@drawable/ic_workapp"
+            android:title="Wokfinderapp" />
+
+    </group>
+</menu>

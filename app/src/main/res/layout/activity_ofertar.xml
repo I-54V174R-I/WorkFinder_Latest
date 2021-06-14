@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/activity" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ofertar">
+
+    <LinearLayout
+        style="@style/layouts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity=""
+
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.392">
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/textView3"
+            style="@style/subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:gravity="center"
+            android:text="Monto por tu servicio" />
+
+        <EditText
+            android:textColor="@color/white"
+            android:id="@+id/editTextNumber3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number" />
+
+
+        <TextView
+            android:id="@+id/textView"
+
+
+            style="@style/subtitle"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="Horario en el cual puede efectuar el trabajo"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_marginLeft="20dp"
+                android:id="@+id/datePickerButton"
+                style="?android:spinnerStyle"
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+
+                android:onClick="openDatePicker"
+                android:text="JAN 01 2021"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_marginRight="20dp"
+                android:id="@+id/timeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:width="300dp"
+                android:height="100dp"
+                android:onClick="popTimePicker"
+                android:text="Hora"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:text="Cancelar"
+                android:textSize="12dp" />
+
+
+            <Button
+                android:id="@+id/btnContinuar"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Continuar"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

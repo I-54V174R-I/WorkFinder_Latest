@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">WorkFinder</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome! "</string>
+    <string name="invalid_username">usuario no valido</string>
+    <string name="invalid_password">contraseña debe ser >5 characteres</string>
+    <string name="login_failed">"login fallido"</string>
+    <string name="title_activity_main">WorkFinder</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Abigail Lopez</string>
+    <string name="nav_header_subtitle">abadelmal@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="register">¿Eres nuevo?</string>
+    <string name="reg">Registrate aqui</string>
+
+    <string name="welcomelogin">Bienvenido a WorkFinder</string>
+
+    <string name="menu_home">Cliente</string>
+    <string name="menu_gallery">Colaborador</string>
+    <string name="menu_slideshow">historial</string>
+    <string name="menu_solicitud">nuevo servicio</string>
+    <string name="datos_p">Datos Personales</string>
+    <string name="calle">Calle:</string>
+    <string name="email">Email:</string>
+    <string name="repita_contrase_a">Contraseña:</string>
+    <string name="ter_con">Leer Terminos y Condiciones</string>
+    <string name="a_t_c">Acepto Terminos y Condiciones</string>
+    <string name="a_t">Agregar Tarjeta</string>
+    <string name="p_l">Perfil Laboral</string>
+    <string name="t_d_t">Tipo de Tarjeta</string>
+    <string name="debito">Debito</string>
+    <string name="credito">Credito</string>
+    <string name="num_c">Numero de tarjeta de debito o credito</string>
+    <string name="a_o">Año:</string>
+    <string name="mes">Mes:</string>
+    <string name="nombre_s">Nombre(s):</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="cp">CP:</string>
+    <string name="pais">Pais:</string>
+    <string name="estado">Estado:</string>
+    <string name="ciudad">Ciudad:</string>
+    <string name="siguiente">Siguiente</string>
+
+    <string name="app_name1">ListView</string>
+    <string name="descripcion_del_servicio">descripcion del servicio</string>
+    <string name="precio_a_ofertar">precio a ofertar</string>
+    <string name="categoria_solicitada">categoria solicitada</string>
+    <string name="requiere_material">Requiere material</string>
+    <string name="continuar">Continuar</string>
+    <string name="recarga">recarga</string>
+    <string name="profile">perfil</string>
+    <string name="capitalS">capital</string>
+    <string name="perfilN">perfil</string>
+    <string name="configuracionN">configuracion</string>
+    <string-array name="array_technology">
+        <item>carpinteria</item>
+        <item>Java</item>
+        <item>Php</item>
+        <item>Hadoop</item>
+
+    </string-array>
+</resources>

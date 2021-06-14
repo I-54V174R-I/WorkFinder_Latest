@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/activity" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cuentas">
+
+    <LinearLayout
+        style="@style/layouts"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="-2dp">
+
+        <TextView
+            style="@style/subtitle"
+            android:id="@+id/textView5"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="15dp"
+            android:text="Inicie sesión y comuniquese más rapido, sincronizando sus cuentas"
+            android:textAlignment="center" />
+
+        <Switch
+
+            android:textColor="#c5cae9"
+            android:textSize="16dp"
+            android:id="@+id/swFacebook"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="30dp"
+            android:text="Appstore" />
+
+        <Switch
+            android:textColor="#c5cae9"
+            android:textSize="16dp"
+            android:id="@+id/swPlaystore"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="30dp"
+            android:text="Playstore" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

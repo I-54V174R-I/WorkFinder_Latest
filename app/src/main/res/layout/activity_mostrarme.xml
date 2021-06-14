@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/activity" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mostrarme">
+
+    <LinearLayout
+        style="@style/layouts"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="53dp">
+
+        <TextView
+            style="@style/subtitle"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="15dp"
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mostrarme" />
+
+        <Button
+            style="@style/buttons"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/btnTodo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Todo" />
+
+        <Button
+            style="@style/buttons"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/btnSinExp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sin experiencia" />
+
+        <Button
+            style="@style/buttons"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/btnRepartidor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Repartidor" />
+
+        <Button
+            style="@style/buttons"
+            android:id="@+id/btnOficios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Oficios" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

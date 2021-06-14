@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_AddCard">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/t_d_t" />
+
+    <RadioButton
+        android:id="@+id/radioButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/debito" />
+
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/credito" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/num_c" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:ems="16"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="@string/a_o" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="144dp"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:text="@string/mes" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_s" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/apellidos" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cp" />
+
+    <EditText
+        android:id="@+id/editTextTextPostalAddress"
+        android:layout_width="133dp"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pais" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName14"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/estado" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName15"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ciudad" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName16"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/buttonsig_perfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/siguiente" />
+
+</LinearLayout>
